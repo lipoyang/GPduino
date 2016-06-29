@@ -6,7 +6,7 @@ GPduinoは、Arduino+Konashi互換のBLEラジコン制御ボードです。
 GPduinoに関する詳細は、[GPduino特設ページ](http://lipoyang.net/gpduino)をごらんください。  
 GPduinoの回路/基板設計データとプリセットファームウェアのソースをここに公開します。
 
-![GPduinoの写真](image/gpduino_r3.png)　![概要の図](image/gpduino_r3_overview.png)
+![GPduinoの写真](image/gpduino_r3.png)　　　　　![概要の図](image/gpduino_r3_overview.png)
 
 ## ファイル一覧
 
