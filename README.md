@@ -24,11 +24,12 @@ GPduinoの回路/基板設計データとプリセットファームウェアの
 ## ブートローダの書き込み
 部品実装したGPduino基板をArduinoとして使用できるようにするには、まずブートローダを書き込みます。
 * ISPコネクタ（CN12）にISPプログラマーを接続します。向きに注意してください。
-	* 3.3V系のArduino (Arduino Pro Mini 3.3V版など)をISPプログラマーにすることができます。File > Examples > Arduino ISP をArduinoに書き込んでください。
+	* 3.3V系のArduino (Arduino Pro Mini 3.3V版など)をISPプログラマーにすることができます。
+	* File > Examples > Arduino ISP をArduinoに書き込んでください。
 * Arduino IDEにて、Tools > Board で、Arduino Pro or Pro Mini を選びます。
 * Tools > Processor で、ATmega328(3.3V, 8MHz) を選びます。
 * Tools > Programmer で、ISPプログラマーを選びます。
-	* 上記の、Arduinoを使ったISPプログラマーの場合は、Arduino as ISPを選んでください。（名前が紛らわしいですが、ArduinoISPではありません。）
+	* 上記の、Arduinoを使ったISPプログラマーの場合は、Arduino as ISPを選んでください。
 * Tools > Burn Bootloader で、ブートローダーを書き込みます。
 
 ## ファームウェアの書き込み
